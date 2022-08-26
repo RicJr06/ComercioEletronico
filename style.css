@@ -22,13 +22,17 @@ h2 {
 .item {
     background: #f7f7f7;
     border: 1px solid #e7e7e7;
-    margin-bottom: 20px;
     padding: 20px;
+    margin-bottom: 20px;
     border-radius: 4px;
+    display: grid;
+
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 300px 300px;
+    gap: 20px;
+    justify-content: center;
 
 }
